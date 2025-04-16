@@ -1,0 +1,41 @@
+{
+  "name": "saber-admin",
+  "version": "4.5.0",
+  "scripts": {
+    "dev": "vite --host",
+    "prod": "vite --mode production",
+    "build": "vite build",
+    "build:prod": "vite build --mode production",
+    "serve": "vite preview --host"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@smallwei/avue": "^3.4.4",
+    "animate.css": "^4.1.1",
+    "avue-plugin-ueditor": "^1.0.3",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.1.1",
+    "sm-crypto": "^0.3.13",
+    "dayjs": "^1.10.6",
+    "element-plus": "^2.7.3",
+    "js-base64": "^3.7.4",
+    "js-cookie": "^3.0.0",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "vite-plugin-mock": "^2.9.4",
+    "vue": "^3.4.27",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.3.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.27",
+    "prettier": "^2.8.7",
+    "sass": "^1.77.2",
+    "unplugin-auto-import": "^0.11.2",
+    "vite": "^5.2.12",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0"
+  }
+}
