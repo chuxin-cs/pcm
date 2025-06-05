@@ -7,9 +7,9 @@
     "pull-serve": "node ./serve/index.js",
     "push-serve": "vue-cli-service serve",
     "serve": "run-p pull-serve push-serve",
+    "build": "run-s build:lib build:type",
     "build:lib": "vue-cli-service build --target lib --formats umd-min src/library/pcm/index.ts --name pcm",
     "build:type": "tsc -d --emitDeclarationOnly --declarationDir dist/types",
-    "build": "run-s build:lib build:type",
     "lint": "vue-cli-service lint"
   },
   "main": "dist/pcm.umd.min.js",
