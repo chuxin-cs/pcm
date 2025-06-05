@@ -1,4 +1,6 @@
 # PCM
+> 基于WebSocket的浏览器端简单的PCM数据流播放器，支持录音、播放、暂停、停止、等功能
+
 ## Install
 
 using npm:
